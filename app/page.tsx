@@ -4,8 +4,10 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="p-10">
-        <h1>Soft Hour Working</h1>
+      <main className="bg-red-500 p-20">
+        <h1 className="text-5xl text-white">
+          Tailwind Working?
+        </h1>
       </main>
     </>
   );
