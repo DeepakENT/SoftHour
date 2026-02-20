@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <header className="w-full bg-[#F5F2ED] border-b border-[#E8E3DC]">
-      <div className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+      <div className="w-full max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
         
         {/* Logo */}
         <div className="text-[#A3A391] text-xl tracking-wide font-medium">
