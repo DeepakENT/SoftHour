@@ -4,10 +4,9 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="bg-red-500 p-20">
-        <div className="bg-blue-500 h-20 mb-6"></div>
-        <h1 className="text-5xl text-white">
-          Tailwind Working?
+      <main className="bg-[#F5F2ED] min-h-screen px-6 py-20">
+        <h1 className="text-5xl font-serif text-[#4B4B4B]">
+          Relax & Unwind at Home
         </h1>
       </main>
     </>
