@@ -40,18 +40,18 @@ export default function Services() {
             },
           ].map((service, index) => (
             <div
-              key={index}
-              className="bg-white rounded-2xl border border-[#F1ECE6] overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.06)]"
-            >
-              {/* Image */}
-              <div className="relative h-[220px] sm:h-[240px] md:h-[260px]">
-                <Image
-                  src={service.img}
-                  alt={service.title}
-                  fill
-                  className="object-cover"
-                />
-              </div>
+  key={index}
+  className="bg-[#F4F1EC] rounded-2xl border border-[#E8E3DA] overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.06)]"
+>
+  {/* Image */}
+  <div className="relative h-[220px] sm:h-[240px] md:h-[260px]">
+    <Image
+      src={service.img}
+      alt={service.title}
+      fill
+      className="object-cover"
+    />
+  </div>
 
               {/* Content */}
               <div className="px-6 pt-8 pb-10 text-center">
