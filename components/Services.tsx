@@ -54,7 +54,7 @@ export default function Services() {
     },
   ];
 
-  const handleClick = (index) => {
+  const handleClick = (index: number) => {
     setActive(index); // ✅ No scroll
   };
 
